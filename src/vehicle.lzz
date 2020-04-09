@@ -1,0 +1,15 @@
+// vim:ft=cpp
+#src
+#include <iostream>
+#end
+
+class Vehicle {
+};
+
+class Car : public Vehicle {
+    public:
+        void vroom() const
+        {
+            std::cout << "VrooooOOOooOOoom" << std::endl;
+        }
+};
